@@ -3,6 +3,8 @@ ruby '2.1.5'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '4.1.8'
+gem 'bootstrap-sass'
+gem 'sprockets'
 
 group :development, :test do
   gem 'rspec-rails'

@@ -28,6 +28,7 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
+    bootstrap-sass (2.0.0)
     builder (3.2.2)
     capybara (2.4.4)
       mime-types (>= 1.16)
@@ -139,6 +140,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass
   capybara
   coffee-rails (= 4.0.1)
   jbuilder (= 1.0.2)
@@ -148,6 +150,7 @@ DEPENDENCIES
   rspec-rails
   sass-rails (= 4.0.2)
   sdoc (= 0.3.20)
+  sprockets
   therubyracer
   turbolinks (= 1.1.1)
   uglifier (= 2.1.1)
