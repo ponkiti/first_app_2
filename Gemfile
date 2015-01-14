@@ -11,6 +11,8 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'factory_girl_rails'
+  gem 'rspec-its'
+  gem "less" #必要？
 end
 
 gem 'mysql2'
